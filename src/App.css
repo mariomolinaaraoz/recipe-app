@@ -1,41 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.App {
+  font-family: var(--body-font);
+  font-size: var(--sm-font-size) !important;
+  color: var(--second-color);
+}
+/* DEFINITION COLORS APP  */
+.text-first-color {
+  color: var(--first-color);
+}
+.text-second-color {
+  color: var(--second-color);
+}
+.bg-first-color {
+  background-color: var(--first-color);
+}
+.bg-second-color {
+  background-color: var(--second-color);
+}
+.border-first-color {
+  border: .01rem solid;
+  background-color: var(--second-color);
+  border-color: var(--second-color);
+  opacity: .5;
+}
+.border-second-color {
+  border: .1rem solid;
+  background-color: var(--second-color);
+  border-color: var(--second-color);
+  opacity: .75;
+}
+/* DEFINITION FONT SIZE */
+.xxl-fs {
+  font-size: var(--xxl-font-size) !important;
+}
+.xl-fs {
+  font-size: var(--xl-font-size) !important;
+}
+.lg-fs {
+  font-size: var(--lg-font-size) !important;
+}
+.md-fs {
+  font-size: var(--md-font-size) !important;
+}
+.sm-fs {
+  font-size: var(--sm-font-size) !important;
+}
+.vsm-fs {
+  font-size: var(--vsm-font-size) !important;
+}
+/* HEADER DE MENUS */
+.azt33{
+  background: linear-gradient(rgb(72,0,72,0.7), rgb(192,72,72,0.7)), url("https://img.freepik.com/free-vector/hand-drawn-picnic-food-pattern_23-2147555658.jpg?w=826&t=st=1666213345~exp=1666213945~hmac=2cf5addebdfc1ed49ad54a97d53d73a2a150b5e1742b057115f13fa25a420101");
+  background-size: cover;
+  z-index: 1;
+}
+.azt34{
+  font-size: var(--lg-font-size) !important;
+  letter-spacing: .5rem;
+  color: whitesmoke;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .azt-1{
+    display: none;
+  } 
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 575px) {
+  :root{
+    --normal-font-size: calc(10% + 1vw + 1vh);
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .azt{
+    display: none;
+  }  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  
 }
 
-.card {
-  padding: 2em;
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  
 }
 
-.read-the-docs {
-  color: #888;
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  
 }

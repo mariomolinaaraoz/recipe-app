@@ -1,0 +1,7 @@
+.card .blod{
+    font-size: 0;
+}
+
+.card:hover .blod{
+    font-size: var(--vsm-fs);
+}
