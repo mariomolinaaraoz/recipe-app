@@ -1,4 +1,4 @@
-import { useNavigate, NavLink, Link } from "react-router-dom";
+import { useNavigate,NavLink, Link } from "react-router-dom";
 import { supabase } from "../../supabase/client";
 
 
@@ -29,7 +29,7 @@ function Navbar() {
 
   async function signOut() {
     await supabase.auth.signOut();
-    // navigate("/login");
+    navigate("/login");
     // window.location.href = "/login";
   }
 
