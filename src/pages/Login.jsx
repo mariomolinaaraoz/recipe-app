@@ -13,7 +13,7 @@ function Login() {
         setLoading(true);
         try {
             const { error, data } = await supabase.auth.signIn({email, password,}) 
-            window.location.href = '/dashboard/list_recipe';
+            // window.location.href = '/dashboard/list_recipe';
         } catch (error) {            
             console.error(error + data);
         } 

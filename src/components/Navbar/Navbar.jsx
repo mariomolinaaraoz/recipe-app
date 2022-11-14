@@ -28,7 +28,7 @@ function Navbar() {
 
   async function signOut() {
     await supabase.auth.signOut();
-    navigate("/login");
+    // navigate("/login");
     // window.location.href = "/login";
   }
 
