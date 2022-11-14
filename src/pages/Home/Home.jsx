@@ -13,7 +13,11 @@ function Home() {
   return (
     <div className="Home container">
       <div className="logo__intro">
-        <img src="./logo.svg" alt="logo_intro" width="50%" height="auto"/>
+        <img src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2ODQ1MjkzNCwiZXhwIjoxOTgzODEyOTM0fQ.EMtrqbNcUW6cKwGQflEWm5I0bBtvcuHN7TbePeIN9QA" 
+          alt="logo_intro" 
+          width="50%" 
+          height="auto"
+        />
       </div>
 
       <div className="space__intro"></div>
