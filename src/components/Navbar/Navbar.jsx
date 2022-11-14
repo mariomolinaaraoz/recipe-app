@@ -3,9 +3,7 @@ import { supabase } from "../../supabase/client";
 
 import { useCart } from "react-use-cart";
 
-
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
@@ -14,6 +12,8 @@ function Navbar() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const navigate = useNavigate();
 
   const {
     isEmpty,
@@ -28,7 +28,8 @@ function Navbar() {
 
   async function signOut() {
     await supabase.auth.signOut();
-    window.location.href = "/login";
+    navigate("/login");
+    // window.location.href = "/login";
   }
 
   return (
