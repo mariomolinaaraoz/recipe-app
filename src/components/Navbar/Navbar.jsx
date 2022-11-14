@@ -1,5 +1,6 @@
-import { NavLink, Link } from "react-router-dom";
+import { useNavigate, NavLink, Link } from "react-router-dom";
 import { supabase } from "../../supabase/client";
+
 
 import { useCart } from "react-use-cart";
 
