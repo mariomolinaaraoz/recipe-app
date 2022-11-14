@@ -21,7 +21,6 @@ export const RecipeContextProvider = ({ children }) => {
     const { error, data } = await supabase
       .from("recipe")
       .select()
-      .eq("userId", user.id)
       .eq("state", state)
       .order("id", { ascending: false });
 
