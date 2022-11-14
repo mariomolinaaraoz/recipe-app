@@ -90,8 +90,9 @@ function Footer() {
       <div className="copyright col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         {/* COPYRIGHT */}
         <p className="text-center text-muted">
-          Designed & Built by <a href="https://mariomolinaaraoz.com.ar" target="_blank">Mario Molina</a>
-        </p>
+          Designed & Built by <a href="https://mariomolinaaraoz.com.ar" target="_blank">Mario Molina</a><br></br>
+          2022
+        </p>        
       </div>
 
     </div>
