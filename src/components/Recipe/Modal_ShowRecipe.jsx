@@ -65,7 +65,7 @@ export function Modal_ShowRecipe(recipe, id) {
                     <div class="card-footer text-end">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                     </div>
-                </div>                  
+                </div>
             </div>
         </div>
     `;

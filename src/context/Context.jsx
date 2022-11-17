@@ -96,7 +96,6 @@ export const RecipeContextProvider = ({ children }) => {
         .from("recipe")
         .update(updateFields)
         .eq("userId", user.id)
-        .eq("id", id);
 
       if (error) throw error;
 

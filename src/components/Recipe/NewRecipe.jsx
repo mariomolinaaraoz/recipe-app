@@ -105,24 +105,7 @@ function NewRecipe() {
           <div name="title" className="my-2 px-3 pt-2">
             <div className="row">
               <div className="title col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mx-auto">
-                <div className="form-floating mb-1">
-                  <input
-                    autoFocus
-                    type="text"
-                    id="title"
-                    autoComplete="on"
-                    className="form-control md-fs"
-                    name="title"
-                    placeholder="Título receta"
-                    required
-                    onChange={(e) =>
-                      setNewRecipe({ ...newRecipe, title: e.target.value })
-                    }
-                  />
-                  <label htmlFor="floatingInput" className="md-fs">
-                    Título:
-                  </label>
-                </div>
+                
               </div>
 
                 <div className="folder d-none d-md-block col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 mx-auto">

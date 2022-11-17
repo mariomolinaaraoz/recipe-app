@@ -39,7 +39,7 @@ function Navbar() {
         <Offcanvas.Header closeButton className="azt33 shadow m-0 py-0 ps-0">
           <Offcanvas.Title className="d-flex flex-row align-baseline my-1 ms-3">
               <div className="btn btn-primary rounded-circle me-2">
-                <i class="bi bi-cart3"></i>
+                <i className="bi bi-cart3"></i>
               </div>
               <span className="text-light mt-2 sm-fs fw-light">Carrito de Compras</span>
           </Offcanvas.Title>
