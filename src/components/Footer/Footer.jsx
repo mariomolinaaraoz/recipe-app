@@ -36,7 +36,7 @@ function Footer() {
       <div className="brand_&_menu col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">      
         <div className="row">
           {/* BRAND*/}
-          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center">
+          <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-4">
               <a className="" href="/">
                 <img 
                   src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2NjcwODUwNiwiZXhwIjoxOTgyMDY4NTA2fQ.yT7j8B38_4qbAISR7YBDCgWn4eES_u-23Yinu1Hwo9Q&t=2022-10-25T14%3A35%3A01.804Z"
@@ -51,32 +51,31 @@ function Footer() {
           <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 text-center">  
             <div className="row">
               <div className="col-3 mb-4">
-                <Link to="/" className="nav-link"><span className="lg-fs">Inicio</span></Link>
-                <ul className="list-unstyled">
+                <Link to="/" className="nav-link"><span className="lg-fs border-bottom">Inicio</span></Link>
+                <ul className="list-unstyled text-muted">
                   <li><a href="#" className="nav-link py-1">Quien soy?</a></li>
                   <li><a href="#" className="nav-link py-1">Galeria</a></li>
                   <li><a href="#" className="nav-link py-1">Tienda</a></li>
                 </ul>
               </div>
               <div className="col-3 mb-4 border-start">
-                <Link to="/store" className="nav-link"><span className="md-fs">Tienda</span></Link>
-                <ul className="list-unstyled">
+                <Link to="/store" className="nav-link"><span className="lg-fs border-bottom">Tienda</span></Link>
+                <ul className="list-unstyled text-muted">
                   <li><a href="#" className="nav-link py-1">Ofertas</a></li>
                   <li><a href="#" className="nav-link py-1">Productos</a></li>
-                  <li><a href="#" className="nav-link py-1">Careers</a></li>
                 </ul>
               </div>
               <div className="col-3 mb-4 border-start">
-                <Link to="/dashboard/list_recipe" className="nav-link"><span className="md-fs">Recetas</span></Link>
-                <ul className="list-unstyled">
+                <Link to="/dashboard/list_recipe" className="nav-link"><span className="lg-fs border-bottom">Recetas</span></Link>
+                <ul className="list-unstyled text-muted">
                   <li><a href="#" className="nav-link py-1">Escuela</a></li>
                   <li><a href="#" className="nav-link py-1">Propias</a></li>
                   <li><a href="#" className="nav-link py-1">Tradicionales</a></li>
                 </ul>
               </div>
               <div className="col-3 mb-4 border-start">
-                <Link to="/dashboard/list_recipe" className="nav-link"><span className="md-fs">Social</span></Link>
-                <ul className="list-unstyled">
+                <Link to="/dashboard/list_recipe" className="nav-link"><span className="lg-fs border-bottom">Social</span></Link>
+                <ul className="list-unstyled text-muted">
                   <li><a href="#" className="nav-link py-1">Facebook</a></li>
                   <li><a href="#" className="nav-link py-1">Twitter</a></li>
                   <li><a href="#" className="nav-link py-1">Instagram</a></li>

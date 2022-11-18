@@ -4,9 +4,12 @@ import './store.css';
 
 const Home = () => {
     return(
-        <div className="container">
-            <span className="title__section xxl-fs my-3">Shop page</span>
+        <div className="Store container">
+
+        <div className="title__section d-flex flex-column text-center my-2">
+            <span className="xxl-fs mt-3">Tienda</span>
             <Store_Hero/>
+        </div>
             <div className="container py-4">
                 <div className="row">
                     {data.products.map((item,index) => {

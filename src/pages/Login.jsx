@@ -33,8 +33,8 @@ function Login() {
                                 width="60" 
                                 height="auto"
                             />                        
-                            <span className="me-auto lg-fs" id="basic-addon1">Bienvenidos de nuevo</span>
-                            <span className="mb-2 me-auto md-fs text-secondary" id="basic-addon1">Ingresa, para continuar</span>
+                            <span className="me-auto md-fs" id="basic-addon1">Bienvenidos de nuevo</span>
+                            <span className="mb-2 me-auto text-secondary" id="basic-addon1">Ingresa, para continuar</span>
                         </div>
                         <div className="form-floating mb-1">
                             <input
@@ -45,7 +45,7 @@ function Login() {
                                 placeholder="name@example.com"
                                 onChange={(e)=>{setEmail(e.target.value)}}
                             />
-                            <label htmlFor="floatingInput" className="md-fs">Email</label>
+                            <label htmlFor="floatingInput" className="">Email</label>
                         </div>
                         <div className="form-floating mb-3">
                             <input
@@ -56,16 +56,16 @@ function Login() {
                                 placeholder="Password"
                                 onChange={(e)=>{setPassword(e.target.value)}}
                             />
-                            <label htmlFor="floatingPassword md-fs">Contraseña</label>
+                            <label htmlFor="floatingPassword">Contraseña</label>
                         </div>
-                        <button className="w-100 btn btn-lg btn-primary mb-2 md-fs" type="submit" >
+                        <button className="w-100 btn btn-md btn-primary mb-2 md-fs" type="submit" >
                             {loading && (
                                 <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             )}
                             {!loading &&(<span>Iniciar sesión</span>)}
                         </button>
 
-                        <span className="mb-0 sm-fs">No tienes cuenta?
+                        <span className="mb-0">No tienes cuenta?
                             <NavLink className="mb-1 btn btn-link sm-fs" to="/sign_up">
                                 Crear cuenta
                             </NavLink>

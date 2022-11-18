@@ -34,7 +34,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-sm bg-second-color navbar-dark md-fs">
+    <nav className="navbar navbar-expand-sm bg-second-color navbar-dark sm-fs">
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton className="azt33 shadow m-0 py-0 ps-0">
           <Offcanvas.Title className="d-flex flex-row align-baseline my-1 ms-3">

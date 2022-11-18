@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="d-flex flex-row justify-content-between bg-light shadow px-3 my-5">
+    <div className="d-flex flex-row justify-content-between bg-light shadow px-3 mt-3 pb-2 overflow-auto">        
         <div className="d-flex flex-column text-center text-primary xxl-fs p-0 mx-3">
             <i className="bi bi-star"></i>
             <span className="vsm-fs">Ofertas del día</span>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate } from 'react-router-dom'
 import { supabase } from "../supabase/client";
 
 function AuthOnly({ children }) {
@@ -12,7 +12,8 @@ function AuthOnly({ children }) {
   the tags inside the AuthOnly Tag otherwise navigate the user to the auth view*/
 
   // <Navigate to='/login' />
-  return isAuthenticated ? children : navigate("/login");
+  // navigate("/login")
+  return isAuthenticated ? children : <Navigate to='/login' />;
 }
 
 export default AuthOnly;

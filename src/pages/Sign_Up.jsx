@@ -98,7 +98,7 @@ function Sign_Up() {
       <div className="row">
         <div className="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mx-auto">
           <form onSubmit={handleSubmit} className="card card-body">
-            <span className="mb-2 me-auto" id="basic-addon1">
+            <span className="mb-2 me-auto lg-fs" id="basic-addon1">
               Crear cuenta
             </span>
 
@@ -113,7 +113,7 @@ function Sign_Up() {
                 onChange={(e) => validateEmail(e.target.value)}
               />
               <label htmlFor="floatingInput">
-                Email<span className="text-danger md-fs">{emailMessage}</span>
+                Email<span className="text-danger">{emailMessage}</span>
               </label>
             </div>
             <div className="password form-floating mb-2">
@@ -127,7 +127,7 @@ function Sign_Up() {
                 onChange={(e) => validatePassword(e.target.value)}
               />
               <label htmlFor="floatingPassword">
-                Contraseña <span className="text-danger md-fs">{passwordMessage}</span>
+                Contraseña <span className="text-danger">{passwordMessage}</span>
               </label>
             </div>
 
@@ -146,7 +146,7 @@ function Sign_Up() {
               </label>
             </div>
 
-            <button className="w-100 btn btn-lg btn-success mb-2" type="submit">
+            <button className="w-100 btn btn-md btn-success mb-2 md-fs" type="submit">
               {loading && (
                 <span
                   className="spinner-border spinner-border-sm"
