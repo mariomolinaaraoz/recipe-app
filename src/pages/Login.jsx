@@ -21,8 +21,8 @@ function Login() {
     };
 
     return (
-        <div className="container my-4">
-            <div className="row">
+        <div className="container">
+            <div className="row" style={{marginTop:"10vh", marginBottom:"26vh"}}>
                 <div className="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mx-auto">
                     <form onSubmit={handleSubmit} className="card card-body">
                         <div className="d-flex flex-column">
@@ -41,7 +41,7 @@ function Login() {
                                 type="email"
                                 id="floatingInput"
                                 autoComplete="on"
-                                className="form-control md-fs"
+                                className="form-control sm-fs"
                                 placeholder="name@example.com"
                                 onChange={(e)=>{setEmail(e.target.value)}}
                             />
@@ -50,7 +50,7 @@ function Login() {
                         <div className="form-floating mb-3">
                             <input
                                 type="password"                            
-                                className="form-control md-fs"
+                                className="form-control sm-fs"
                                 autoComplete="on"
                                 id="floatingPassword"
                                 placeholder="Password"
@@ -58,21 +58,21 @@ function Login() {
                             />
                             <label htmlFor="floatingPassword">Contraseña</label>
                         </div>
-                        <button className="w-100 btn btn-md btn-primary mb-2 md-fs" type="submit" >
+                        <button className="w-100 btn btn-sm btn-primary mb-2 sm-fs" type="submit" >
                             {loading && (
                                 <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                             )}
                             {!loading &&(<span>Iniciar sesión</span>)}
                         </button>
 
-                        <span className="mb-0">No tienes cuenta?
-                            <NavLink className="mb-1 btn btn-link sm-fs" to="/sign_up">
+                        <span className="mb-0 vsm-fs">No tienes cuenta?
+                            <NavLink className="mb-0 btn btn-link sm-fs" to="/sign_up">
                                 Crear cuenta
                             </NavLink>
                         </span>
                     </form>
                 </div>                
-            </div>
+            </div>            
         </div>
     );
 }

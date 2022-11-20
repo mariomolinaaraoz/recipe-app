@@ -94,8 +94,8 @@ function Sign_Up() {
   };
 
   return (
-    <div className="container my-4">
-      <div className="row">
+    <div className="container">
+      <div className="row" style={{marginTop:"10vh", marginBottom:"24vh"}}>
         <div className="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mx-auto">
           <form onSubmit={handleSubmit} className="card card-body">
             <span className="mb-2 me-auto lg-fs" id="basic-addon1">
@@ -107,7 +107,7 @@ function Sign_Up() {
                 required
                 type="email"
                 autoComplete="on"
-                className="form-control md-fs"
+                className="form-control sm-fs"
                 id="floatingInput"
                 placeholder="name@example.com"
                 onChange={(e) => validateEmail(e.target.value)}
@@ -121,7 +121,7 @@ function Sign_Up() {
                 required
                 type="password"
                 autoComplete="on"
-                className="form-control md-fs"
+                className="form-control sm-fs"
                 id="floatingPassword"
                 placeholder="Password"
                 onChange={(e) => validatePassword(e.target.value)}
@@ -136,17 +136,17 @@ function Sign_Up() {
                 required
                 type="password"
                 autoComplete="on"
-                className="form-control md-fs"
+                className="form-control sm-fs"
                 id="floatingConfirmPassword"
                 placeholder="Confirm password"
                 onChange={(e) => validateConfirmPassword(e.target.value)}
               />
               <label htmlFor="floatingConfirmPassword">
-                Confirmar contraseña <span className="text-danger md-fs">{confirmPasswordMessage}</span>
+                Confirmar contraseña <span className="text-danger">{confirmPasswordMessage}</span>
               </label>
             </div>
 
-            <button className="w-100 btn btn-md btn-success mb-2 md-fs" type="submit">
+            <button className="w-100 btn btn-sm btn-success mb-2 sm-fs" type="submit">
               {loading && (
                 <span
                   className="spinner-border spinner-border-sm"
@@ -157,19 +157,15 @@ function Sign_Up() {
               {!loading && <span>Crear cuenta</span>}            
             </button>
 
-            <span className="mb-0 sm-fs">
+            <span className="mb-0 vsm-fs">
               Tienes cuenta?
-              <NavLink
-                className="mb-1 btn btn-link sm-fs"
-                to="/login"
-              >
+              <NavLink className="mb-0 btn btn-link sm-fs" to="/login">
                 Ingresar
               </NavLink>
             </span>
           </form>
         </div>        
       </div>
-
     </div>
   );
 }
