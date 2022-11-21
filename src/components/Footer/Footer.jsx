@@ -11,20 +11,15 @@ function Footer() {
             className="col-sm-8 col-md-6 col-lg-4 col-xl-4 col-xxl-4 position-relative mx-auto"
             style={{top:"-1.6rem"}}
           >
-            <div 
-              className="subscribe bg-light p-2" 
-              style={{borderRadius:"5rem"}}
-
-            >
+            <div className="subscribe bg-light p-2" style={{borderRadius:"5rem"}}>
               <form action="#" className="subscribe-form">
                 <div className="form-group d-flex">
-                  <input type="text" className="form-control border-0 sm-fs" placeholder="Ingresar email"/>
+                  <input type="text" className="form-control bg-light border-0 sm-fs" placeholder="Ingresar email"/>
                   <input 
                     type="submit" 
                     value="Suscribirme"
                     className="btn bg-first-color sm-fs"
                     style={{borderRadius:"4.5rem"}}
-
                   />
                 </div>
               </form>
@@ -52,7 +47,7 @@ function Footer() {
             <div className="row">
               <div className="col-3 mb-4">
                 <Link to="/" className="nav-link"><span className="lg-fs border-bottom">Inicio</span></Link>
-                <ul className="list-unstyled text-muted">
+                <ul className="list-unstyled text-muted d-none d-md-block">
                   <li><a href="#" className="nav-link py-1">Quien soy?</a></li>
                   <li><a href="#" className="nav-link py-1">Galeria</a></li>
                   <li><a href="#" className="nav-link py-1">Tienda</a></li>
@@ -60,14 +55,14 @@ function Footer() {
               </div>
               <div className="col-3 mb-4 border-start">
                 <Link to="/store" className="nav-link"><span className="lg-fs border-bottom">Tienda</span></Link>
-                <ul className="list-unstyled text-muted">
+                <ul className="list-unstyled text-muted d-none d-md-block">
                   <li><a href="#" className="nav-link py-1">Ofertas</a></li>
                   <li><a href="#" className="nav-link py-1">Productos</a></li>
                 </ul>
               </div>
               <div className="col-3 mb-4 border-start">
                 <Link to="/dashboard/list_recipe" className="nav-link"><span className="lg-fs border-bottom">Recetas</span></Link>
-                <ul className="list-unstyled text-muted">
+                <ul className="list-unstyled text-muted d-none d-md-block">
                   <li><a href="#" className="nav-link py-1">Escuela</a></li>
                   <li><a href="#" className="nav-link py-1">Propias</a></li>
                   <li><a href="#" className="nav-link py-1">Tradicionales</a></li>
@@ -75,7 +70,7 @@ function Footer() {
               </div>
               <div className="col-3 mb-4 border-start">
                 <Link to="/dashboard/list_recipe" className="nav-link"><span className="lg-fs border-bottom">Social</span></Link>
-                <ul className="list-unstyled text-muted">
+                <ul className="list-unstyled text-muted d-none d-md-block">
                   <li><a href="#" className="nav-link py-1">Facebook</a></li>
                   <li><a href="#" className="nav-link py-1">Twitter</a></li>
                   <li><a href="#" className="nav-link py-1">Instagram</a></li>

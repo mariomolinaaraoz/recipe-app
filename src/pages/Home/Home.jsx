@@ -42,6 +42,8 @@ function Home() {
       </div>
 
       {separator()}
+
+      <div className="separator" style={{marginTop:"12vh"}}></div>
       
     </div>    
   )

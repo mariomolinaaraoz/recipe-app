@@ -101,12 +101,12 @@ function Navbar() {
         </a>
         <div className="d-flex flex-row">
           {supabase.auth.user() && (
-            <button className="azt-1 btn btn-outline-secondary btn-sm me-2" onClick={signOut}>
+            <button className="azt-1 btn btn-outline-secondary btn-sm sm-fs mx-2" onClick={signOut}>
               Salir
             </button>
           )}
           {!supabase.auth.user() && (
-            <Link type="button" className="azt-1 btn btn-outline-primary btn-sm border-0 text-white me-2" to="/login">
+            <Link type="button" className="azt-1 btn btn-outline-primary btn-sm border-0 text-white sm-fs mx-2 pt-2" to="/login">
               Iniciar sesión
             </Link>
           )}
@@ -152,12 +152,12 @@ function Navbar() {
             </li>
             <li className="azt">
               {supabase.auth.user() && (
-                <button className="navbar-collapse btn btn-outline-secondary btn-sm border-0 ms-2 me-2" onClick={signOut}>
+                <button className="navbar-collapse btn btn-outline-secondary btn-sm sm-fs mx-2" onClick={signOut}>
                   Salir
                 </button>
               )}
               {!supabase.auth.user() && (
-                <Link type="button" className="btn btn-outline-primary btn-sm border-0 text-white ms-2 me-2" to="/login">
+                <Link type="button" className="btn btn-outline-primary btn-sm border-0 text-white sm-fs mx-2" to="/login">
                   Iniciar sesión
                 </Link>
               )}

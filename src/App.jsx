@@ -15,6 +15,15 @@ export default function App() {
           </CartProvider>
           <Footer/>
       </RecipeContextProvider>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/5493813498284"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="aq bi bi-whatsapp"></i>
+      </a>
     </div>
   );
 }
