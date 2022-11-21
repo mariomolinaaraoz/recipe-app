@@ -19,8 +19,8 @@ function Galery() {
         );
     }
     return (
-            <div className="container">                
-                <div className="gallery row mb-4">
+            <section id="gallery">                
+                <div className="row mb-4">
                     {picture(
                         "lorem ipsum",
                         "salkjaskd aslkdjla ja ljdl",
@@ -54,7 +54,7 @@ function Galery() {
                         "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/pan.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9wYW4uanBnIiwiaWF0IjoxNjY2ODc5NzI3LCJleHAiOjE5ODIyMzk3Mjd9.RibFs7TPTIJjnaWqOpaohBsmNCbOgxx48JfzIas_Akw",
                     )}
                 </div>
-            </div>
+            </section>
     )
 }
 

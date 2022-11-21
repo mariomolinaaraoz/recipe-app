@@ -3,7 +3,18 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="row bg-second-color text-light mx-auto mt-5">
-
+      {/* WhatsApp icon */}
+      <div className="container">
+        <a
+          href="https://wa.me/5493813498284"
+          className="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="whastapp_button"
+        >
+          <i className="whatsapp-icon bi bi-whatsapp"></i>
+        </a>
+      </div>
       <div className="form-contact col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         {/* FORM CONTACT */}
         <div className="row">
@@ -32,14 +43,19 @@ function Footer() {
         <div className="row">
           {/* BRAND*/}
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center mb-4">
-              <a className="" href="/">
-                <img 
-                  src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2NjcwODUwNiwiZXhwIjoxOTgyMDY4NTA2fQ.yT7j8B38_4qbAISR7YBDCgWn4eES_u-23Yinu1Hwo9Q&t=2022-10-25T14%3A35%3A01.804Z"
-                  alt="logo" 
-                  loading="lazy"
-                  width="180px"
-                />
-              </a>
+              <div>
+                <a className="" href="/">
+                  <img 
+                    src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2NjcwODUwNiwiZXhwIjoxOTgyMDY4NTA2fQ.yT7j8B38_4qbAISR7YBDCgWn4eES_u-23Yinu1Hwo9Q&t=2022-10-25T14%3A35%3A01.804Z"
+                    alt="logo" 
+                    loading="lazy"
+                    width="180px"
+                  />
+                </a>
+                <address className="mt-2 text-muted">
+                  Tucumán - Argentina
+                </address>
+              </div>
           </div>
 
           {/* MENU */}

@@ -30,11 +30,10 @@ function Navbar() {
   async function signOut() {
     await supabase.auth.signOut();
     navigate("/login");
-    // window.location.href = "/login";
   }
 
   return (
-    <nav className="navbar navbar-expand-sm bg-second-color navbar-dark sm-fs">
+    <nav className="container-fluid">
       <Offcanvas show={show} onHide={handleClose} placement="end">
         <Offcanvas.Header closeButton className="azt33 shadow m-0 py-0 ps-0">
           <Offcanvas.Title className="d-flex flex-row align-baseline my-1 ms-3">
@@ -90,7 +89,7 @@ function Navbar() {
         </Offcanvas.Body>
       </Offcanvas>
 
-      <div className="container-fluid">
+      {/* <div className=""> */}
         <a className="navbar-brand m-0 p-0 ms-1" href="/">
           <img 
             src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2NjcwODUwNiwiZXhwIjoxOTgyMDY4NTA2fQ.yT7j8B38_4qbAISR7YBDCgWn4eES_u-23Yinu1Hwo9Q&t=2022-10-25T14%3A35%3A01.804Z"
@@ -194,7 +193,7 @@ function Navbar() {
             </li>
           </ul>          
         </div>        
-      </div>                
+      {/* </div>                 */}
     </nav>
   );
 }

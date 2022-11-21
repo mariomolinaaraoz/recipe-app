@@ -7,23 +7,20 @@ import { CartProvider } from 'react-use-cart';
 export default function App() {
 
   return (
-    <div className="App layout">
+    <div className="App">
       <RecipeContextProvider>
           <CartProvider>
-              <Navbar/>
-              <MyRoutes/>
+              <header className="navbar navbar-expand-sm bg-second-color navbar-dark sm-fs">
+                <Navbar/>
+              </header>
+              <main>
+                <MyRoutes/>
+              </main>
+              <footer>
+                <Footer/>
+              </footer>
           </CartProvider>
-          <Footer/>
       </RecipeContextProvider>
-      {/* WhatsApp icon */}
-      <a
-        href="https://wa.me/5493813498284"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="aq bi bi-whatsapp"></i>
-      </a>
     </div>
   );
 }

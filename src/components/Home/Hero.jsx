@@ -19,7 +19,7 @@ function Hero() {
         )
     }
   return (
-    <div className="container">
+    <section id="hero">
             <div className="row mb-4">
                 {card__hero(
                     "Quien soy?",
@@ -38,7 +38,7 @@ function Hero() {
                     "https://t3.ftcdn.net/jpg/03/16/43/38/240_F_316433874_c4KNyyJSp0pGJ0OcAsnIykdeGgntHJCk.jpg"
                 )}
             </div>     
-    </div>
+    </section>
   )
 }
 
