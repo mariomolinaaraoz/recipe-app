@@ -39,14 +39,14 @@ function Galery() {
 
                     )}
                     {picture(
-                        "lorem ipsum",
-                        "salkjaskd aslkdjla ja ljdl",
-                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/sorrentino-1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9zb3JyZW50aW5vLTEuanBnIiwiaWF0IjoxNjY2ODc5NzU0LCJleHAiOjE5ODIyMzk3NTR9.Hm8SsBIUPhSkyS2gD7NKdJutRmZU46lZqo_S4HR-JXQ",
+                        "Algunos de nuestros postres",
+                        "Profiteroles, isla flotante y muchos más...",
+                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_6.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzYuanBnIiwiaWF0IjoxNjY5MTU0OTI4LCJleHAiOjE5ODQ1MTQ5Mjh9.Sm8xn0-4SKhhtHJH3pTqk0YedvE8megIudGyXgHAsXs"
                     )}
                     {picture(
-                        "lorem ipsum",
-                        "salkjaskd aslkdjla ja ljdl",
-                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/crema-pastelera-chocolate.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9jcmVtYS1wYXN0ZWxlcmEtY2hvY29sYXRlLmpwZyIsImlhdCI6MTY2Njg3OTcwOCwiZXhwIjoxOTgyMjM5NzA4fQ.xt9wss89OQ3RHCb4gkAW7GlIf1wYqpx5tUCOo45tVpQ",
+                        "Alfajor marplatense",
+                        "Galletitas rellenas con mucho dulce de leche y cubiertas con el más puro chocolate semi amargo.",
+                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/alfajor-marplatense-chocolate.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9hbGZham9yLW1hcnBsYXRlbnNlLWNob2NvbGF0ZS5qcGciLCJpYXQiOjE2NjkxMjA1MTUsImV4cCI6MTk4NDQ4MDUxNX0.fNUuSn_ibue3uN3q9-LGc9hsANPQ8Kmf7euYlUM21es"
                     )}
                     {picture(
                         "Fotos Cocinera Artesanal 2022",
