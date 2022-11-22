@@ -33,9 +33,9 @@ function Galery() {
 
                     )}
                     {picture(
-                        "lorem ipsum",
-                        "salkjaskd aslkdjla ja ljdl",
-                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/crema-chantilly-mascarpone.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9jcmVtYS1jaGFudGlsbHktbWFzY2FycG9uZS5qcGciLCJpYXQiOjE2NjY4Nzk2NzQsImV4cCI6MTk4MjIzOTY3NH0.87DmqBbqRpEtMXcjKHhCWQtgdk55pZJZk99ZQzh0jdQ",
+                        "Pan dulce de navidad",
+                        "No existe navidad sin pan dulce, ya que es un pan azucarado con frutas abrillantada y aroma a citricos, puede solictarlo tambien con chispas de chocolate, nueces y otras combinaciones.",
+                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_5.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzUuanBnIiwiaWF0IjoxNjY5MTM1NzY4LCJleHAiOjE5ODQ0OTU3Njh9.OxV3wvDs1p53LofGhLlXpooAeLUtvl9ysFMZfKYYl48"
 
                     )}
                     {picture(
