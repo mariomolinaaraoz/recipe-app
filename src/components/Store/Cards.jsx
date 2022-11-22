@@ -4,12 +4,10 @@ const Cards = (props) => {
     const {addItem} = useCart ();
     return (
         <div className="col-6 col-sm-6 col-md-4 col-xl-3 col-xxl-3">
-            <div className="card shadow rounded-0 mb-3" 
-                // style={{width: '12rem', height: 'auto'}}
+            <div className="card shadow rounded-0 mb-3"
                 onClick={()=>addItem(props.item)}
             >
                 <div className="card-title border-bottom-1"
-                    style={{width: 'auto', height: '6rem'}}
                 >
                     <img 
                         src={props.img}
@@ -17,7 +15,7 @@ const Cards = (props) => {
                         loading="lazy"
                     />
                 </div>                    
-                <div className="card-body">
+                <div className="card-body" style={{minWidth: "10rem"}}>
                     <div className="d-flex flex-column">
                         <span className="badge rounded-1 text-bg-primary small">Oferta del día</span>                            
                         <span className="blod text-secondary mt-2 text-decoration-line-through">20% Off</span>
@@ -25,7 +23,10 @@ const Cards = (props) => {
                             <span className="text-success mt-2 vsm-fs"> 20% Off</span>
                         </span>
                         <span className="text-success mt-0 vsm-fs">Hasta 6 pagos sin interes.</span>
-                        <span className="blod card-title small mt-3">{props.title}</span>
+                        <article>
+                            <h1 className="card-title fw-semibold sm-fs mt-2">{props.title}</h1>
+                            <p className="blod"></p>
+                        </article>
                     </div>                                           
                 </div>
             </div>

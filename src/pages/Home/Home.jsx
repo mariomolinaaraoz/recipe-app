@@ -11,41 +11,41 @@ function Home() {
     );
   }
   return (
-    <div className="Home container">
-      <div className="logo__intro">
-        <img src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2ODQ1MjkzNCwiZXhwIjoxOTgzODEyOTM0fQ.EMtrqbNcUW6cKwGQflEWm5I0bBtvcuHN7TbePeIN9QA" 
-          alt="logo_intro" 
-          width="50%" 
-          height="auto"
-        />
-      </div>
+    <section id="home" className="container">
+      <section id="intro_section">
+        <div className="logo__intro">
+          <img src="https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/logo/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvbG9nby9sb2dvLnN2ZyIsImlhdCI6MTY2ODQ1MjkzNCwiZXhwIjoxOTgzODEyOTM0fQ.EMtrqbNcUW6cKwGQflEWm5I0bBtvcuHN7TbePeIN9QA" 
+            alt="logo_intro" 
+            width="50%" 
+            height="auto"
+          />
+        </div>
+        <div className="space__intro"></div>
+      </section>
 
-      <div className="space__intro"></div>
-
-      <div className="title__section d-flex flex-column text-center my-2">
-        <span className="xxl-fs my-3">Bienvenidos a mi mundo</span>
+      <section id="title__section" className="d-flex flex-column text-center my-2">
+        <h1 className="title xxl-fs my-3">Bienvenidos a mi mundo</h1>
         <Home_Hero/>
-      </div>
+      </section>
 
       {separator()}
 
-      <div className="title__section d-flex flex-column text-center my-2">
-        <span className="xxl-fs my-3">Galeria</span>
+      <section id="gallery__section" className="d-flex flex-column text-center my-2">
+        <h2 className="xxl-fs my-3">Galeria</h2>
         <Gallery/>
-      </div>
+      </section>
 
       {separator()}
 
-      <div className="title__section d-flex flex-column text-center my-2">
-        <span className="xxl-fs my-3">Acerca de mí</span>
+      <section id="about__section" className="d-flex flex-column text-center my-2">
+        <h2 className="xxl-fs my-3">Acerca de mí</h2>
         <About/>
-      </div>
+      </section>
 
       {separator()}
 
-      <div className="separator" style={{marginTop:"12vh"}}></div>
-      
-    </div>    
+      <div className="separator" style={{marginTop:"12vh"}}></div>      
+    </section>    
   )
 }
 

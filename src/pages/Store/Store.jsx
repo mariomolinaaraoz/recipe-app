@@ -4,13 +4,12 @@ import './store.css';
 
 const Home = () => {
     return(
-        <div className="Store container">
-
-        <div className="title__section d-flex flex-column text-center my-2">
-            <span className="xxl-fs mt-3">Tienda</span>
-            <Store_Hero/>
-        </div>
-            <div className="container py-4">
+        <section id="store" className="container">
+            <section id="title__section" className="d-flex flex-column text-center my-2">
+                <h1 className="xxl-fs mt-3">Tienda</h1>
+                <Store_Hero/>
+            </section>
+            <section id="products" className="container py-4">
                 <div className="row">
                     {data.products.map((item,index) => {
                         return(
@@ -23,11 +22,10 @@ const Home = () => {
                                 item={item}
                             />
                         )
-                    })}                  
-
+                    })}
                 </div>
-            </div>
-        </div>
+            </section>
+        </section>
     )
 }
 

@@ -6,7 +6,7 @@ function Footer() {
       {/* WhatsApp icon */}
       <div className="container">
         <a
-          href="https://wa.me/5493813498284"
+          href="https://wa.me/5493813498284/?text=Mensaje desde la Web Cintia Vides!"
           className="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"

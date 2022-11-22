@@ -9,7 +9,7 @@
   animation: slidein 4.8s;
 }
 /* HERO STYLE */
-.title__section{
+#title__section, #gallery__section, #about__section{
   font-family: 'Lobster', cursive;
 }
 .box {

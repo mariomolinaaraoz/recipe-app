@@ -2,10 +2,10 @@ function Hero() {
     const card__hero=(title, text,img, link) =>{
         return(
             <div className="col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4">
-                <div className="box my-2 mx-auto">
+                <article className="box my-2 mx-auto">
                     <img src={img} alt="hero_img" loading="lazy" />
                     <div className="box__text pt-4 px-4">
-                        <span className="lg-fs">{title}</span>
+                        <h3 className="lg-fs mt-2">{title}</h3>
                         <p className="text-start sm-fs mt-3">{text}</p>
                         <a 
                             className="btn btn-outline-light btn-sm border-0"
@@ -14,7 +14,7 @@ function Hero() {
                             <small>más ⟶</small>
                         </a>
                     </div>
-                </div>
+                </article>
             </div>
         )
     }
@@ -30,16 +30,17 @@ function Hero() {
                 {card__hero(
                     "Recetas",
                     "Aquí encontraras, recetas tradicionales, elaboradas y tambien exclusivas para miembros, crea tu cuenta y accede.",
-                    "https://t4.ftcdn.net/jpg/00/59/22/37/240_F_59223799_yNtHchqCaxlYtnFfPUo7VywWVbHA5Xit.jpg"
+                    "https://t4.ftcdn.net/jpg/00/59/22/37/240_F_59223799_yNtHchqCaxlYtnFfPUo7VywWVbHA5Xit.jpg",
+                    "/dashboard/list_recipe"
                 )}
                 {card__hero(
                     "Hiciste tu pedido?",
                     "Realizamos menús diarios, frescos y preparados en el momento, como tambien tortas y postres, conoce nuestra galeria.",
-                    "https://t3.ftcdn.net/jpg/03/16/43/38/240_F_316433874_c4KNyyJSp0pGJ0OcAsnIykdeGgntHJCk.jpg"
+                    "https://t3.ftcdn.net/jpg/03/16/43/38/240_F_316433874_c4KNyyJSp0pGJ0OcAsnIykdeGgntHJCk.jpg",
+                    "/store"
                 )}
             </div>     
     </section>
   )
 }
-
 export default Hero
