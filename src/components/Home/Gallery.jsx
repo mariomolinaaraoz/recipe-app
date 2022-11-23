@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
+import {FsLightbox} from 'fslightbox-react';
 
 function Galery() {
     // if toggler is updated when lightbox is closed it will open it
