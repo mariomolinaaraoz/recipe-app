@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
+// import FsLightbox from 'fslightbox-react';
 
 function Galery() {
     // if toggler is updated when lightbox is closed it will open it
@@ -46,7 +46,7 @@ function Galery() {
                     <span className="border-animation border-animation--border-1"></span>
                     <span className="border-animation border-animation--border-2"></span>
                 </button>
-                <FsLightbox
+                {/* <FsLightbox
                     toggler={toggler}
                     sources={[                
                     'https://www.youtube.com/watch?v=tPqVPtXC4FI',
@@ -55,7 +55,7 @@ function Galery() {
                     "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_5.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzUuanBnIiwiaWF0IjoxNjY5MTM1NzY4LCJleHAiOjE5ODQ0OTU3Njh9.OxV3wvDs1p53LofGhLlXpooAeLUtvl9ysFMZfKYYl48",
                     "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/alfajor-marplatense-chocolate.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9hbGZham9yLW1hcnBsYXRlbnNlLWNob2NvbGF0ZS5qcGciLCJpYXQiOjE2NjkxMjA1MTUsImV4cCI6MTk4NDQ4MDUxNX0.fNUuSn_ibue3uN3q9-LGc9hsANPQ8Kmf7euYlUM21es",
                     "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzIuanBnIiwiaWF0IjoxNjY5MTI5NTY0LCJleHAiOjE5ODQ0ODk1NjR9.es2QAgRTV0ql35si2YPoLrlRMIqC6sUVKdDAnzqTbNI"
-                    ]}
+                    ]} */}
                 />
                         
                 <div className="row mb-4">                    
