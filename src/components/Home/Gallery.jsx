@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {FsLightbox} from 'fslightbox-react';
+import FsLightbox from 'fslightbox-react';
 
 function Galery() {
     // if toggler is updated when lightbox is closed it will open it
@@ -41,10 +41,10 @@ function Galery() {
                     }}
                 >                    
                     <span>
-                        <i class="bi bi-play-circle"></i>
+                        <i className="bi bi-play-circle"></i>
                     </span>
-                    <span class="border-animation border-animation--border-1"></span>
-                    <span class="border-animation border-animation--border-2"></span>
+                    <span className="border-animation border-animation--border-1"></span>
+                    <span className="border-animation border-animation--border-2"></span>
                 </button>
                 <FsLightbox
                     toggler={toggler}
