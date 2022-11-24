@@ -1,4 +1,3 @@
-import React from 'react'
 
 function About() {
   return (
@@ -17,10 +16,10 @@ function About() {
             <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt-5">
                 <div className="bg-second-color text-light border border-light border-top-0 border-start-0 border-4 py-2"
                     style={{letterSpacing:"0.15rem",lineHeight:"1.5rem"}}>
-                    <div className="title xl-fs mt-4 mb-4">Quien soy?</div>
+                    <h2 className="title xl-fs mt-4 mb-4">Quien soy?</h2>
                     <div className="text md-fs mb-4 p-4">
                         Hola! mi nombre es Cintia Vides
-                        Soy cocinera profesional artesanal y converti mi pasión en mi profesión,con el apoyo de mi familia me ayudaron a crear este espacio para que pueda compartir contigo mis riquisimas recetas.❤️👩🏽‍🍳
+                        Soy cocinera artesanal y convertí mi pasión en mi profesión,con el apoyo de mi familia creamos este espacio para compartir contigo mis riquísimas recetas.❤️👩🏽‍🍳
                     </div>
                 </div>
             </div>

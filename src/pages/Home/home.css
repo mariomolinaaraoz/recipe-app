@@ -9,7 +9,14 @@
   animation: slidein 4.8s;
 }
 /* HERO STYLE */
-#title__section, #gallery__section, #about__section{
+#about__section h2{
+  font-family: 'Lobster', cursive;
+}
+#title__section h1,h3{
+  font-family: 'Lobster', cursive;
+}
+
+#gallery__section h2{
   font-family: 'Lobster', cursive;
 }
 .box {
