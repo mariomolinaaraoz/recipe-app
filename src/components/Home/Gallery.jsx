@@ -35,14 +35,14 @@ function Galery() {
           {
             'href':'https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_6.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzYuanBnIiwiaWF0IjoxNjY5MTU0OTI4LCJleHAiOjE5ODQ1MTQ5Mjh9.Sm8xn0-4SKhhtHJH3pTqk0YedvE8megIudGyXgHAsXs',
             'title': 'Algunos de nuestros postres',
-            'description': 'Profiteroles, isla flotante y muchos más...',
+            'description': 'Los postres son el cuento de hadas de la cocina, un final feliz luego de la cena - Terri Guillemets',
             'type': 'image',
             'alt': 'image text alternatives'
           },
           {
-            'href':'https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/alfajor-marplatense-chocolate.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9hbGZham9yLW1hcnBsYXRlbnNlLWNob2NvbGF0ZS5qcGciLCJpYXQiOjE2NjkxMjA1MTUsImV4cCI6MTk4NDQ4MDUxNX0.fNUuSn_ibue3uN3q9-LGc9hsANPQ8Kmf7euYlUM21es',
-            'title': 'Alfajor marplatense',
-            'description': 'Galletitas rellenas con mucho dulce de leche y cubiertas con el más puro chocolate semi amargo.',
+            'href':'https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_7.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzcuanBnIiwiaWF0IjoxNjY5MzM0OTkxLCJleHAiOjE5ODQ2OTQ5OTF9.OK23oARb5i3f5WMkT0bQPTljUcvU-tikprH4PPRMErU',
+            'title': 'Variedad de Tortas',
+            'description': 'Las tortas son especiales. Cada cumpleaños, cada celebración terminara con algo dulce: una torta que la gente recordara - Buddy Valastro',
             'type': 'image',
             'alt': 'image text alternatives'
           },
@@ -108,9 +108,9 @@ function Galery() {
                         "3"
                     )}
                     {picture(
-                        "Alfajor marplatense",
-                        "Galletitas rellenas con mucho dulce de leche y cubiertas con el más puro chocolate semi amargo.",
-                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/recipe_img/alfajor-marplatense-chocolate.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvcmVjaXBlX2ltZy9hbGZham9yLW1hcnBsYXRlbnNlLWNob2NvbGF0ZS5qcGciLCJpYXQiOjE2NjkxMjA1MTUsImV4cCI6MTk4NDQ4MDUxNX0.fNUuSn_ibue3uN3q9-LGc9hsANPQ8Kmf7euYlUM21es",
+                        "Variedad de Tortas",
+                        "Las tortas son especiales. Cada cumpleaños, cada celebración terminara con algo dulce: una torta que la gente recordara - Buddy Valastro",
+                        "https://qpjongunqmlhnicdvokg.supabase.co/storage/v1/object/sign/recipe/cocinera_artesanal_2022/muestra%202022_7.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJyZWNpcGUvY29jaW5lcmFfYXJ0ZXNhbmFsXzIwMjIvbXVlc3RyYSAyMDIyXzcuanBnIiwiaWF0IjoxNjY5MzM0OTkxLCJleHAiOjE5ODQ2OTQ5OTF9.OK23oARb5i3f5WMkT0bQPTljUcvU-tikprH4PPRMErU",
                         "4"
                     )}
                     {picture(
