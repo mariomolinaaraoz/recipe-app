@@ -59,23 +59,19 @@ function Galery() {
 
     const picture =(title, text, img, id)=>{
         return(
-            <div className="img__container 
-                        col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 
-                        overflow-hidden d-block position-relative mb-2"
-                        onClick={()=>myGallery.openAt(id)}
+            <div id="gallery-img" className="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-2"
+                onClick={()=>myGallery.openAt(id)}
             >
-                        <img 
-                            className="img__gallery" 
-                            src={img} 
-                            width="100%" 
-                            height="auto"
-                            alt="img_gallery_1"
-                        />
-                        <div className="text__gallery">
-                            <span className="lg-fs">{title}</span>
-                            <span className="sm-fs mt-4 p-3">{text}</span>
-                        </div>
-                    </div>
+            <div className="zoom-wrapper">
+                    <img 
+                        className="" 
+                        src={img} 
+                        width="100%" 
+                        height="auto"
+                        alt="img_gallery_1"
+                    />
+                </div>
+            </div>
         );
     }
     return (

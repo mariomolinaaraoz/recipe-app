@@ -15,6 +15,7 @@ function Footer() {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   };
 
   return (
@@ -41,12 +42,18 @@ function Footer() {
             <div className="subscribe bg-light p-2" style={{borderRadius:"5rem"}}>
               <form ref={form} onSubmit={sendEmail} className="subscribe-form">
                 <div className="form-group d-flex">
-                  <input type="dmail" name="user_email" className="form-control bg-light border-0 sm-fs" placeholder="Ingresar email"/>
                   <input 
+                    type="email"
+                    name="user_email" 
+                    className="form-control bg-light border-0 sm-fs" 
+                    placeholder="Ingresar email"
+                    required
+                  />
+                  <input
+                    id="footer-contact_form-submit"
                     type="submit" 
                     value="Suscribirme"
-                    className="btn bg-first-color sm-fs"
-                    style={{borderRadius:"4.5rem"}}
+                    className="bg-first-color border-0 sm-fs"
                   />
                 </div>
               </form>

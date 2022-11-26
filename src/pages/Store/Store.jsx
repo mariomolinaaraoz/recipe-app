@@ -9,8 +9,8 @@ const Home = () => {
                 <h1 className="xxl-fs mt-3">Tienda</h1>
                 <Store_Hero/>
             </section>
-            <section id="products" className="container py-4">
-                <div className="row gap-3">
+            <section id="products" className="d-flex flex-column py-4">
+                <div className="row justify-content-center gap-3">
                     {data.products.map((item,index) => {
                         return(
                             <Cards

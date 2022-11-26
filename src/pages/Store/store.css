@@ -44,6 +44,18 @@
 #card-products-price-ranking #ranking {
     font-size:0.75rem;
 }
+#card-products-buttons{
+    margin-top:1rem;
+}
+#card-products-buttons #more_details{
+    width:14rem;
+    height:2.5rem;
+}
+#card-products-buttons #cart{
+    width:2.5rem;
+    height:2.5rem;
+    font-size:1.25rem;
+}
 
 .card .blod{
     font-size: 0;
