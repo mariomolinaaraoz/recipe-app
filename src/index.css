@@ -33,6 +33,7 @@
 }
 html {
   scroll-behavior: smooth !important;
+  font-size: 16px;
 }
 body {
   background-color: #CC8566;

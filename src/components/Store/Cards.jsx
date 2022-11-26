@@ -3,35 +3,33 @@ import {useCart} from "react-use-cart";
 const Cards = (props) => {
     const {addItem} = useCart ();
     return (
-        <div className="col-6 col-sm-6 col-md-4 col-xl-3 col-xxl-3">
-            <div className="card shadow rounded-0 mb-3"
-                onClick={()=>addItem(props.item)}
-            >
-                <div className="card-title border-bottom-1"
-                >
-                    <img 
+        <div className="col-sm-12 col-md-5 col-xl-4 col-xxl-3">
+            <div id="card-products" className="card">
+                <div className="card-body p-0">
+                    <img id="card-products-img"
                         src={props.img}
-                        alt="" className="card-img-top rounded-0"
+                        alt={props.title}
+                        className=""
                         loading="lazy"
                     />
-                </div>                    
-                <div className="card-body" style={{minWidth: "10rem"}}>
-                    <div className="d-flex flex-column">
-                        <span className="badge rounded-1 text-bg-primary small">Oferta del día</span>                            
-                        <span className="blod text-secondary mt-2 text-decoration-line-through">20% Off</span>
-                        <span className="fw-semibold mt-0 lg-fs">${props.price}
-                            <span className="text-success mt-2 vsm-fs"> 20% Off</span>
-                        </span>
-                        <span className="text-success mt-0 vsm-fs">Hasta 6 pagos sin interes.</span>
-                        <article>
-                            <h1 className="card-title fw-semibold sm-fs mt-2">{props.title}</h1>
-                            <p className="blod"></p>
-                        </article>
-                    </div>                                           
-                </div>
+                    <h1 id="card-products-title" className="fw-semibold">
+                        {props.title}
+                    </h1>
+                    <p id="card-products-description" className="">
+                        {props.desc}
+                    </p>
+                    <div id="card-products-price-ranking" class="d-flex justify-content-between align-items-center p-0 pt-2">
+                        <h3 id="price" className="fw-semibold">${props.price}</h3>
+                        <h3 id="ranking" className="">⭐⭐⭐⭐⭐ 4.9</h3>
+                    </div>
+                    <div class="d-flex justify-content-between px-0" style={{marginTop:"16px"}}>
+                        <button className="btn btn-light border-dark shadow md-fs" style={{width:"224px",height:"40px"}}>More details</button>
+                        <button className="btn btn-dark pt-1 ps-2" style={{width:"40px",height:"40px", fontSize:"20px"}}><i class="bi bi-cart4"></i></button>
+                    </div>
+                </div>                
             </div>
         </div>
     )
 }
 
-export default Cards;
+export default Cards;  

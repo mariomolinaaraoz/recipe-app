@@ -4,17 +4,18 @@ import './store.css';
 
 const Home = () => {
     return(
-        <section id="store" className="container">
+        <section id="store" className="">
             <section id="title__section" className="d-flex flex-column text-center my-2">
                 <h1 className="xxl-fs mt-3">Tienda</h1>
                 <Store_Hero/>
             </section>
             <section id="products" className="container py-4">
-                <div className="row">
+                <div className="row gap-3">
                     {data.products.map((item,index) => {
                         return(
-                            <Cards 
+                            <Cards
                                 img={item.img}
+                                short_title={item.short_title}
                                 title={item.title}
                                 price={item.price}
                                 desc={item.desc}

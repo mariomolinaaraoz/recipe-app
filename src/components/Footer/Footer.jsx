@@ -1,6 +1,22 @@
 import { Link } from "react-router-dom";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Footer() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8dardha', 'template_92ecan8', e.target, 'TxBydyoMa4SKLDCsH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className="row bg-second-color text-light mx-auto mt-5">
       {/* WhatsApp icon */}
@@ -23,9 +39,9 @@ function Footer() {
             style={{top:"-1.6rem"}}
           >
             <div className="subscribe bg-light p-2" style={{borderRadius:"5rem"}}>
-              <form action="#" className="subscribe-form">
+              <form ref={form} onSubmit={sendEmail} className="subscribe-form">
                 <div className="form-group d-flex">
-                  <input type="text" className="form-control bg-light border-0 sm-fs" placeholder="Ingresar email"/>
+                  <input type="dmail" name="user_email" className="form-control bg-light border-0 sm-fs" placeholder="Ingresar email"/>
                   <input 
                     type="submit" 
                     value="Suscribirme"
