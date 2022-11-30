@@ -20,6 +20,18 @@ function Footer() {
 
   return (
     <div className="row bg-second-color text-light mx-auto mt-5">
+      {/* Youtube icon */}
+      <div className="container">
+        <a
+          href="https://www.youtube.com/@cintiavides4755"
+          className="youtube_float"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Youtube"
+        >
+          <i className="youtube-icon bi bi-youtube"></i>
+        </a>
+      </div>
       {/* WhatsApp icon */}
       <div className="container">
         <a
@@ -27,7 +39,7 @@ function Footer() {
           className="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"
-          title="whastapp_button"
+          title="Whastapp"
         >
           <i className="whatsapp-icon bi bi-whatsapp"></i>
         </a>
