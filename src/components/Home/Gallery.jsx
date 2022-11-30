@@ -25,7 +25,7 @@ function Galery() {
               'description': 'Pan dulce, budin ingles, profiteroles, isla flotante, jesuitas. Salados: empanadas, matambre relleno de verduras, arrollado de pollo.',
           },
           {
-              'href': 'https://www.youtube.com/watch?v=IB5oYAinyYU',
+              'href': 'https://youtu.be/i1JfzR9vtug',
               'type': 'video',
               'title': 'Pan dulce de navidad',
               'description': 'No existe navidad sin pan dulce, ya que es un pan azucarado con frutas abrillantada y aroma a citricos, puede solictarlo tambien con chispas de chocolate, nueces y otras combinaciones.',
