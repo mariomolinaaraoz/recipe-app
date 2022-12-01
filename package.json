@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@supabase/supabase-js": "^1.35.7",
+    "@vercel/analytics": "^0.1.5",
     "bootstrap": "^5.2.1",
     "bootstrap-icons": "^1.9.1",
     "glightbox": "^3.2.0",
