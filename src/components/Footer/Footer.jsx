@@ -20,10 +20,22 @@ function Footer() {
 
   return (
     <div className="row bg-second-color text-light mx-auto mt-5">
+      {/* Instagram icon */}
+      <div className="container">
+        <a
+          href="https://instagram.com/cintia_videsok?igshid=NmQ2ZmYxZjA="
+          className="instagram_float"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <i className="instagram-icon bi bi-instagram"></i>
+        </a>
+      </div>
       {/* Youtube icon */}
       <div className="container">
         <a
-          href="https://www.youtube.com/@cintiavides4755"
+          href="https://www.youtube.com/channel/UCyzMOufEYBkRshrid4f1RVQ"
           className="youtube_float"
           target="_blank"
           rel="noopener noreferrer"
