@@ -154,6 +154,13 @@
 /* for mobile */
 @media screen and (max-width: 767px) {
 
+  .instagram_float {
+    width: 25px;
+    height: 32px;
+    bottom:140px;
+    right: 20px;
+    font-size: 22px;
+}
   .youtube_float {
     width: 25px;
     height: 32px;
@@ -161,7 +168,6 @@
     right: 20px;
     font-size: 22px;
 }
-
   .whatsapp_float {
       width: 25px;
       height: 32px;
